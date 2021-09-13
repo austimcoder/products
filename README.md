@@ -34,3 +34,9 @@ Follow the below steps:
 
 1) mvn clean build to build the project.
 2) Take the jar and perform java -jar <jar-file> on the server where java 11 is suported.
+        
+## Demo
+        
+Product server url: http://ec2-13-233-27-37.ap-south-1.compute.amazonaws.com:8090
+Keycloak server url: http://ec2-15-206-187-78.ap-south-1.compute.amazonaws.com/auth
+*Note: Demo deployed with no SLA's to worry. Therfore, you may find some inconvenience while accessing. In that case, if you want to have a look, just ping me and we will figure it out*

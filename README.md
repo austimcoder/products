@@ -8,6 +8,9 @@ Products server is a spring boot application which provide secured end points to
 
 Products server is an spring boot application which interacts with mysql DB to to perform fetch, add and update operations. It is integrated with the Keylock support for spring boot to implement OAuth security to it's exposed REST end points.
 
+#### For API Documentation: 
+<serverUrl>/swagger-ui.html
+
 ## Configuration
 
 Add the properties in application.properties file as follows
@@ -22,8 +25,8 @@ Add the properties in application.properties file as follows
         keycloak.auth-server-url            = //keycloak auth URL
         keycloak.ssl-required               = none
         keycloak.resource                   = //Keycloak client id
-        keycloak.public-client				      = true
-        keycloak.realm-key					        = //Keycloak realm public key /*If not provided Keycloack will use auth url to get key in rotation mode*/
+        keycloak.public-client		    = true
+        keycloak.realm-key		    = //Keycloak realm public key /*If not provided Keycloack will use auth url to get key in rotation mode*/
 
 ## Deploy
 

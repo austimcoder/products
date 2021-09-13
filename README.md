@@ -9,7 +9,7 @@ Products server is a spring boot application which provide secured end points to
 Products server is an spring boot application which interacts with mysql DB to to perform fetch, add and update operations. It is integrated with the Keylock support for spring boot to implement OAuth security to it's exposed REST end points.
 
 #### For API Documentation: 
-*#serverUrl#*/swagger-ui.html
+*#productServerUrl#*/swagger-ui.html
 
 ## Configuration
 

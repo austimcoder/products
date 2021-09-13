@@ -12,18 +12,18 @@ Products server is an spring boot application which interacts with mysql DB to t
 
 Add the properties in application.properties file as follows
 
-  server.port=//port config
-  spring.datasource.driver-class-name=//db driver class name
-  spring.datasource.url=//DB url
-  spring.datasource.username=// DB user
-  spring.datasource.password=// DB password
+        server.port=//port config
+        spring.datasource.driver-class-name=//db driver class name
+        spring.datasource.url=//DB url
+        spring.datasource.username=// DB user
+        spring.datasource.password=// DB password
 
-  keycloak.realm                      = //Keycloak realm name
-  keycloak.auth-server-url            = //keycloak auth URL
-  keycloak.ssl-required               = none
-  keycloak.resource                   = //Keycloak client id
-  keycloak.public-client				      = true
-  keycloak.realm-key					        = //Keycloak realm public key /*If not provided Keycloack will use auth url to get key in rotation mode*/
+        keycloak.realm                      = //Keycloak realm name
+        keycloak.auth-server-url            = //keycloak auth URL
+        keycloak.ssl-required               = none
+        keycloak.resource                   = //Keycloak client id
+        keycloak.public-client				      = true
+        keycloak.realm-key					        = //Keycloak realm public key /*If not provided Keycloack will use auth url to get key in rotation mode*/
 
 ## Deploy
 
